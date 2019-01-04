@@ -1,9 +1,14 @@
 package vn.nkb.steps.serenity;
 
-import net.thucydides.core.steps.ScenarioSteps;
 import vn.nkb.pages.HomePage;
 
-public class AppHomeSteps extends ScenarioSteps{
+public class AppHomeSteps{
 	
 	HomePage homePage;
+
+	public void open_home_page() {
+		homePage.open();
+		
+	}
+	
 }

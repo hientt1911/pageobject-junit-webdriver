@@ -18,7 +18,7 @@ public class WhenTravellerSearchAvailabelTicketStoryTest {
 	public void search_avalible_ticket() {
 		
 		// Mở trang chủ
-		
+		homePageSteps.open_home_page();
 		
 		// điền thông tin vé cần tìm
 		
